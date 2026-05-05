@@ -1,0 +1,14 @@
+title: RecetIA — Documentos Legales
+description: Privacidad, Términos y Eliminación de Cuenta de RecetIA
+theme: jekyll-theme-cayman
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+lang: es
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
