@@ -1,14 +1,33 @@
-title: RecetIA — Documentos Legales
-description: Privacidad, Términos y Eliminación de Cuenta de RecetIA
-theme: jekyll-theme-cayman
+title: RecetIA
+description: Cocina inteligente, sabor auténtico. Recetas con inteligencia artificial, planificador semanal y lista de la compra automática.
+lang: es
+url: https://recetiapp.com
+
+# Marca / contacto (usado por las plantillas)
+tagline: Cocina inteligente, sabor auténtico.
+email_soporte: recetia.app@gmail.com
+email_privacidad: airamlinaresdev@gmail.com
+responsable: Airam Linares Ossorio
+
+# Waitlist "avísame cuando salga".
+# Sustituir XXXXXXXX por el ID real de un formulario en https://formspree.io
+# (crear form gratis -> copiar el endpoint). Si se deja el placeholder, el
+# formulario cae al fallback mailto automáticamente.
+formspree_endpoint: "https://formspree.io/f/XXXXXXXX"
+
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-lang: es
 
 defaults:
   - scope:
       path: ""
     values:
       layout: default
+
+exclude:
+  - _design/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
