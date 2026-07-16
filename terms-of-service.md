@@ -92,7 +92,7 @@ Nos reservamos el derecho de **suspender o terminar tu cuenta** sin previo aviso
 
 ## 10. Privacidad
 
-El tratamiento de tus datos personales se rige por nuestra **Política de Privacidad**: https://recetia.app/legal/privacidad. Léela antes de aceptar estos Términos.
+El tratamiento de tus datos personales se rige por nuestra **Política de Privacidad**: https://recetiapp.com/legal/privacidad/. Léela antes de aceptar estos Términos.
 
 ## 11. Disponibilidad del servicio
 

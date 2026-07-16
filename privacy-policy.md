@@ -152,7 +152,7 @@ Al confirmar la eliminación:
 
 La eliminación es **definitiva** y se completa en menos de 30 días. Cierta información puede conservarse en backups cifrados hasta su rotación (máx. 30 días) o cuando exista una obligación legal de conservación.
 
-También puedes solicitar la eliminación escribiendo a airamlinaresdev@gmail.com desde el correo asociado a tu cuenta. Procedimiento público alternativo: https://recetia.app/legal/eliminar-cuenta
+También puedes solicitar la eliminación escribiendo a airamlinaresdev@gmail.com desde el correo asociado a tu cuenta. Procedimiento público alternativo: https://recetiapp.com/legal/eliminar-cuenta/
 
 ## 10. Menores de edad
 
@@ -166,7 +166,7 @@ Como se detalla en §5, algunos encargados están en EE. UU. Las transferencias 
 
 ## 12. Cookies y tecnologías similares
 
-La App **no usa cookies**. En el sitio web `https://recetia.app` (si existe) usamos exclusivamente cookies estrictamente necesarias para mantener tu sesión.
+La App **no usa cookies**. En el sitio web `https://recetiapp.com` usamos exclusivamente cookies estrictamente necesarias para mantener tu sesión.
 
 ## 13. Cambios a esta Política
 
