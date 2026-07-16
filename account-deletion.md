@@ -2,6 +2,7 @@
 layout: default
 title: Eliminación de Cuenta — RecetIA
 description: Procedimiento público para eliminar tu cuenta de RecetIA, conforme a Google Play y App Store.
+permalink: /legal/eliminar-cuenta/
 ---
 
 # Eliminación de Cuenta — RecetIA

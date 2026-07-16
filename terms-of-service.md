@@ -2,6 +2,7 @@
 layout: default
 title: Términos y Condiciones — RecetIA
 description: Términos y Condiciones de Uso de la aplicación RecetIA.
+permalink: /legal/terminos/
 ---
 
 # Términos y Condiciones de Uso de RecetIA

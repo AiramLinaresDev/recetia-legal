@@ -2,6 +2,7 @@
 layout: default
 title: Política de Privacidad — RecetIA
 description: Política de Privacidad de RecetIA — tratamiento de datos personales conforme al RGPD.
+permalink: /legal/privacidad/
 ---
 
 # Política de Privacidad de RecetIA
