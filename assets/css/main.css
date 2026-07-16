@@ -411,6 +411,7 @@ h1, h2, h3, h4 {
   border-radius: var(--r-lg);
   box-shadow: var(--shadow-soft);
   padding: clamp(28px, 5vw, 60px);
+  overflow-wrap: anywhere;
 }
 .legal-doc > *:first-child { margin-top: 0; }
 .legal-doc h1 { font-size: 32px; margin-top: 0; }
@@ -437,7 +438,16 @@ h1, h2, h3, h4 {
   padding: 2px 6px;
   border-radius: 6px;
 }
-.legal-doc table { width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 15px; }
+.legal-doc table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 15px;
+  -webkit-overflow-scrolling: touch;
+}
 .legal-doc th, .legal-doc td { text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--border-soft); }
 .legal-doc th { background: var(--surface-low); font-family: var(--font-sans); font-weight: 700; }
 .legal-doc em { color: var(--muted); }
