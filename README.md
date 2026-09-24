@@ -4,13 +4,13 @@ Documentos legales públicos de [RecetIA](https://github.com/AiramLinaresDev/Rec
 
 ## URLs públicas
 
-- 🌐 Landing: https://airamlinaresdev.github.io/recetia-legal/
-- 📄 [Política de Privacidad](https://airamlinaresdev.github.io/recetia-legal/privacy-policy.html)
-- 📄 [Términos y Condiciones](https://airamlinaresdev.github.io/recetia-legal/terms-of-service.html)
-- 📄 [Eliminación de Cuenta](https://airamlinaresdev.github.io/recetia-legal/account-deletion.html)
+- 🌐 Sitio: <https://recetiapp.com/>
+- 📄 [Política de Privacidad](https://recetiapp.com/legal/privacidad/)
+- 📄 [Términos de Uso](https://recetiapp.com/legal/terminos/)
+- 📄 [Eliminar cuenta](https://recetiapp.com/legal/eliminar-cuenta/)
 
 ## Mantenimiento
 
 Los archivos `.md` de este repo son **espejos** de `docs/legal/` en el repo principal privado `RecetIA`. Cualquier cambio debe hacerse primero en el repo principal y después sincronizarse aquí.
 
-Última sincronización: 2026-05-05.
+Los textos v1.2 del 24 de septiembre de 2026 están preparados localmente y pendientes de revisión antes de publicarse.

@@ -1,89 +1,50 @@
 ---
 layout: default
-title: Eliminación de Cuenta — RecetIA
-description: Procedimiento público para eliminar tu cuenta de RecetIA, conforme a Google Play y App Store.
+title: Eliminar tu cuenta — RecetIA
+description: Cómo eliminar tu cuenta de RecetIA y qué ocurre con tus datos, recetas y suscripción.
 permalink: /legal/eliminar-cuenta/
 ---
 
-# Eliminación de Cuenta — RecetIA
+# Eliminar tu cuenta de RecetIA
 
-**Última actualización:** 5 de mayo de 2026
+**Última actualización:** 24 de septiembre de 2026
 
-Esta página describe el procedimiento público de eliminación de cuenta requerido por **Google Play Developer Program Policy** (vigente desde mayo de 2024) y por las **App Store Review Guidelines §5.1.1(v)** de Apple.
+Puedes solicitar la eliminación desde la aplicación o por correo si ya no tienes acceso. No necesitas volver a instalar RecetIA para escribirnos. La eliminación de la cuenta es irreversible.
 
-## Cómo eliminar tu cuenta y todos tus datos
+## Desde la aplicación
 
-### Opción A — Desde la App (recomendado, instantáneo)
+1. Inicia sesión y abre **Perfil → Eliminar cuenta**.
+2. Lee el resumen de los datos que se borrarán y de las recetas públicas que permanecerán sin atribución.
+3. Escribe **ELIMINAR**. Si tu cuenta tiene contraseña, introduce también la contraseña actual. Las cuentas creadas solo con Google o Apple no necesitan contraseña.
+4. Confirma la operación. Recibirás una confirmación en la aplicación cuando termine.
 
-1. Abre RecetIA en tu teléfono.
-2. Inicia sesión con tu cuenta.
-3. Toca **Perfil** (esquina inferior derecha).
-4. Desplázate hasta **Ajustes de la App**.
-5. Toca **Eliminar cuenta**.
-6. Confirma ingresando tu contraseña actual y escribiendo la palabra **ELIMINAR** cuando se te pida.
-7. Verás una pantalla de confirmación. Tu cuenta y datos asociados se eliminan en menos de 30 días.
+La cuenta deja de estar disponible al confirmar el borrado. También se eliminan las sesiones y los datos personales asociados de la base de datos activa. Algunas tareas externas, como retirar el avatar alojado en Cloudinary, se procesan después.
 
-> **Si iniciaste sesión con Google o Apple** y no tienes contraseña, escribe **ELIMINAR** en mayúsculas y confirma con el botón.
+## Si no puedes entrar en la aplicación
 
-### Opción B — Por correo electrónico
+Escribe a **[airamlinaresdev@gmail.com](mailto:airamlinaresdev@gmail.com?subject=Eliminaci%C3%B3n%20de%20cuenta%20RecetIA)** desde el correo asociado a tu cuenta. Indica que quieres eliminarla. Si ya no tienes acceso a ese correo, explica la situación para que podamos verificar tu identidad por otro medio proporcionado. No envíes tu contraseña ni documentos de identidad en el primer mensaje.
 
-Si no puedes acceder a la App, escribe a:
+Responderemos a tu solicitud de derechos dentro de **un mes**. Si fuera necesario ampliar el plazo por su complejidad, te avisaremos dentro de ese mes y explicaremos el motivo, conforme al artículo 12.3 del RGPD.
 
-**airamlinaresdev@gmail.com**
+## Qué se elimina y qué puede permanecer
 
-Desde el correo asociado a tu cuenta, indicando:
-- Asunto: "Solicitud de eliminación de cuenta — RecetIA"
-- Cuerpo: "Solicito la eliminación definitiva de mi cuenta y todos los datos asociados."
+| Datos | Resultado al eliminar la cuenta |
+|---|---|
+| Perfil, credenciales, preferencias y alergias | Se eliminan de la base de datos activa. |
+| Sesiones, favoritos, historial, planes, listas de compras, colecciones, reseñas y tokens push | Se eliminan o invalidan con la cuenta. |
+| Recetas privadas | Se eliminan de la base de datos activa. |
+| Recetas públicas | Permanecen visibles sin asociación a tu cuenta. El contenido, incluida una imagen o un texto que hayas publicado, puede seguir siendo reconocible. |
+| Avatar alojado | Se programa su retirada del servicio de imágenes; puede tardar más que el borrado de la cuenta. |
+| Datos de compra de Apple, Google o RevenueCat | La eliminación de la cuenta de RecetIA no borra automáticamente los registros que esas plataformas puedan conservar conforme a sus condiciones y obligaciones. |
 
-Responderemos en un máximo de **un mes** (prorrogable otros dos si la solicitud es compleja, art. 12.3 RGPD) confirmando la eliminación o solicitando información adicional para verificar tu identidad.
+Si una receta pública contiene datos que te identifican, o quieres solicitar su retirada completa, envíanos **su enlace o nombre** al correo anterior. También puedes solicitar la retirada de imágenes que hayas subido y sigan alojadas. Revisaremos la petición y te confirmaremos el resultado.
 
-## ¿Qué datos se eliminan?
+Las copias de seguridad y los registros técnicos pueden subsistir hasta su rotación o durante el plazo exigido por una obligación legal. No se utilizan para restablecer una cuenta eliminada. Consulta la [Política de Privacidad](https://recetiapp.com/legal/privacidad/) para conocer los criterios de conservación y ejercer tus derechos.
 
-| Categoría | ¿Se elimina? | Detalle |
-|---|---|---|
-| Perfil (nombre, apellido, email, avatar, biografía) | ✅ Sí | Eliminación total |
-| Contraseña | ✅ Sí | Eliminación total |
-| Refresh tokens y sesiones activas | ✅ Sí | Revocados al instante |
-| Avatar en Cloudinary | ✅ Sí | Eliminado del CDN |
-| Recetas creadas por ti | ⚠️ Anonimizadas | Se desvincula tu usuario (`UserId = null`); el contenido permanece sin atribución para preservar el catálogo compartido. Si prefieres que se borren completamente, indícalo en tu solicitud por correo. |
-| Favoritos | ✅ Sí | Eliminación total |
-| Historial de recetas vistas | ✅ Sí | Eliminación total |
-| Listas de compras | ✅ Sí | Eliminación total |
-| Planes de comidas | ✅ Sí | Eliminación total |
-| Reseñas | ✅ Sí | Eliminación total |
-| Preferencias dietéticas | ✅ Sí | Eliminación total |
-| Tokens de notificación push | ✅ Sí | Eliminación total |
+## Suscripción Premium
 
-## ¿Qué datos pueden conservarse?
-
-| Dato | Plazo | Justificación |
-|---|---|---|
-| Backups cifrados | Máx. 30 días | Rotación automática |
-| Logs de seguridad anonimizados (IPs hasheadas) | 90 días | Prevención de fraude (interés legítimo) |
-| Trazas de error en Sentry sin PII | 90 días | Mejora del servicio |
-| Información para defender reclamaciones legales | Hasta 6 años | Art. 30 del Código de Comercio (España) |
-| Registros contables (si hubo pagos) | 4 años tributarios, 6 contables | Ley 58/2003, General Tributaria, y Código de Comercio |
-
-## ¿Cuánto tarda?
-
-- **Desde la App:** la eliminación efectiva en producción ocurre **inmediatamente** (la cuenta deja de funcionar al instante).
-- **Eliminación de respaldos:** máximo **30 días**.
-- **Por correo:** máximo **un mes**, prorrogable otros dos si la solicitud es compleja (art. 12.3 RGPD).
-
-## ¿Es reversible?
-
-**No.** La eliminación es definitiva. Si más adelante quieres volver a usar RecetIA, deberás crear una cuenta nueva desde cero.
-
-## ¿Puedo solo desactivar mi cuenta sin eliminarla?
-
-Actualmente no ofrecemos desactivación temporal. Si solo quieres dejar de recibir notificaciones, ve a **Perfil → Notificaciones** y desactívalas. Si solo quieres dejar de usar la App temporalmente, simplemente desinstálala (tus datos permanecen en el servidor).
+**Eliminar tu cuenta no cancela una suscripción contratada en Apple App Store o Google Play.** Antes de eliminarla, abre **Perfil → Suscripción → Gestionar suscripción** o gestiona la cancelación directamente en la tienda donde compraste. El acceso Premium y los reembolsos dependen del estado de la compra y de las condiciones de esa tienda.
 
 ## Contacto
 
-- Privacidad: airamlinaresdev@gmail.com
-- Soporte: recetia.app@gmail.com
-- Domicilio: Jerez de la Frontera, España
-
----
-
-*Conforme a Apple App Store Review Guidelines §5.1.1(v) y Google Play Developer Program Policy "Account deletion" (mayo 2024).*
+Para pedir ayuda con el borrado o ejercer tus derechos de privacidad, escribe a **[airamlinaresdev@gmail.com](mailto:airamlinaresdev@gmail.com)**. Para otras cuestiones de soporte: **[recetia.app@gmail.com](mailto:recetia.app@gmail.com)**.
