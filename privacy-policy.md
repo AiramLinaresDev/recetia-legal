@@ -7,8 +7,8 @@ permalink: /legal/privacidad/
 
 # Política de Privacidad de RecetIA
 
-**Versión:** 1.0
-**Fecha de última actualización:** 5 de mayo de 2026
+**Versión:** 1.1
+**Fecha de última actualización:** 22 de septiembre de 2026
 **Responsable del tratamiento:** Airam Linares Ossorio (Persona física — España (identificación disponible bajo solicitud verificada al email de privacidad)), con domicilio en Jerez de la Frontera, España.
 **Contacto de privacidad:** airamlinaresdev@gmail.com
 
@@ -20,11 +20,13 @@ RecetIA (en adelante, "la App", "nosotros") es una aplicación móvil que permit
 
 Esta Política de Privacidad describe **qué datos personales recabamos, para qué los usamos, con quién los compartimos, durante cuánto tiempo los conservamos y qué derechos puedes ejercer sobre ellos**, en cumplimiento de:
 
-- la **Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP)** y su Reglamento (México);
-- el **Reglamento General de Protección de Datos (GDPR)** de la Unión Europea, cuando aplique;
+- el **Reglamento (UE) 2016/679, General de Protección de Datos (RGPD)**;
+- la **Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD)**, de España;
 - los **App Store Review Guidelines §5.1.1** de Apple;
 - la **Developer Program Policy** y el **Data Safety form** de Google Play;
 - la **Children's Online Privacy Protection Act (COPPA)** de EE. UU., cuando aplique.
+
+RecetIA se desarrolla y opera desde **España**, así que el RGPD y la LOPDGDD son el marco principal. Si resides fuera del Espacio Económico Europeo, tu normativa local puede reconocerte derechos adicionales: escríbenos y los atenderemos igual.
 
 ## 2. Datos personales que tratamos
 
@@ -42,7 +44,7 @@ Esta Política de Privacidad describe **qué datos personales recabamos, para qu
 | **Rendimiento** | Tiempos de respuesta del API, métricas agregadas anónimas | Sentry tracing | Sí |
 
 **No recabamos:**
-- Datos sensibles según el art. 3 fracción VI de la LFPDPPP (origen racial, salud, genéticos, religiosos, etc.) excepto por las preferencias dietéticas y alergias que tú decides ingresar voluntariamente para personalizar recomendaciones.
+- Categorías especiales de datos del art. 9 RGPD (origen étnico, salud, datos genéticos o biométricos, convicciones religiosas, etc.) excepto por las preferencias dietéticas y alergias que tú decides ingresar voluntariamente para personalizar recomendaciones.
 - Ubicación GPS precisa.
 - Identificadores publicitarios (IDFA / GAID). RecetIA **no muestra publicidad** ni hace tracking cross-app.
 - Información de contactos, calendario, fotos completas de la galería (solo accedemos a las fotos que tú seleccionas explícitamente).
@@ -54,7 +56,7 @@ Esta Política de Privacidad describe **qué datos personales recabamos, para qu
 1. Crear y administrar tu cuenta.
 2. Autenticarte y mantener tu sesión segura.
 3. Mostrarte tus recetas, favoritos, historial, planes de comidas y listas de compras.
-4. Generar recetas y respuestas conversacionales mediante el modelo Llama 3.3 70b operado por Groq Inc.
+4. Generar recetas, respuestas conversacionales e imágenes mediante modelos de inteligencia artificial operados por Groq Inc. y OpenAI, y revisar con un clasificador automático el contenido que se publica.
 5. Personalizar las recomendaciones de recetas según tus preferencias dietéticas y alergias.
 6. Enviar notificaciones push relacionadas con tu planificador de comidas (solo si activas el permiso).
 7. Mantener la seguridad de la App: detectar y prevenir fraude, abuso, ataques de fuerza bruta, abuso de IA.
@@ -66,22 +68,25 @@ Esta Política de Privacidad describe **qué datos personales recabamos, para qu
 
 Si no deseas que tus datos se traten para las finalidades secundarias, puedes manifestarlo desde la pantalla **Perfil → Ajustes → Preferencias** o escribiéndonos a airamlinaresdev@gmail.com. Negarte a las finalidades secundarias no afectará el uso de la App.
 
-## 4. Base legal del tratamiento (GDPR / LFPDPPP)
+## 4. Base legal del tratamiento (RGPD)
 
-| Finalidad | Base legal GDPR | Justificación LFPDPPP |
-|---|---|---|
-| Crear y operar tu cuenta (1-7) | Ejecución de un contrato (art. 6.1.b GDPR) | Consentimiento tácito al registrarse y aceptar esta política (art. 8 LFPDPPP) |
-| Seguridad y prevención de fraude (7) | Interés legítimo (art. 6.1.f GDPR) | Excepción al consentimiento (art. 10 fracc. VI LFPDPPP) |
-| Cumplimiento de obligaciones legales (8) | Obligación legal (art. 6.1.c GDPR) | Excepción al consentimiento (art. 10 fracc. III LFPDPPP) |
-| Mejora del modelo de IA y marketing (9-10) | Consentimiento explícito opt-in (art. 6.1.a GDPR) | Consentimiento expreso (art. 8 LFPDPPP) |
+| Finalidad | Base legal RGPD |
+|---|---|
+| Crear y operar tu cuenta (1-6) | Ejecución de un contrato (art. 6.1.b) |
+| Moderar el contenido que se publica (4) | Interés legítimo (art. 6.1.f): mantener la App libre de contenido ilegal o peligroso |
+| Seguridad y prevención de fraude (7) | Interés legítimo (art. 6.1.f) |
+| Cumplimiento de obligaciones legales (8) | Obligación legal (art. 6.1.c) |
+| Mejora del modelo de IA y marketing (9-10) | Consentimiento explícito opt-in (art. 6.1.a), revocable en cualquier momento |
 
 ## 5. Encargados y terceros con quienes se comparten datos
 
-Compartimos datos personales únicamente con los siguientes proveedores ("encargados" en términos LFPDPPP, "data processors" en GDPR), bajo contrato de tratamiento de datos:
+Compartimos datos personales únicamente con los siguientes encargados del tratamiento (art. 28 RGPD), bajo contrato de tratamiento de datos:
 
 | Proveedor | Servicio | Datos transferidos | País | Marco de transferencia |
 |---|---|---|---|---|
-| **Groq Inc.** | Modelo de IA Llama 3.3 70b para generación de recetas y chat | Prompts y mensajes que envías al asistente IA | EE. UU. | Cláusulas Contractuales Tipo (SCC) GDPR; Groq no entrena el modelo con tus datos. |
+| **Groq Inc.** | Clasificación automática del contenido que publicas y, según la configuración vigente, generación de recetas y chat | Texto de las recetas que guardas, prompts y mensajes que envías al asistente, y la URL de la imagen que acompaña a la receta | EE. UU. | Cláusulas Contractuales Tipo (SCC); Groq no entrena sus modelos con datos de la API. |
+| **OpenAI** | Generación de recetas y de chat cuando es el proveedor configurado, y creación de las imágenes de receta | Prompts, mensajes e ingredientes que envías, y la descripción con la que se genera la imagen | EE. UU. / UE | SCC; OpenAI no entrena sus modelos con datos enviados por la API. |
+| **RevenueCat, Inc.** | Gestión de suscripciones y validación de compras | Identificador de cliente asociado a tu cuenta, estado e historial de la suscripción | EE. UU. | SCC. El cobro lo realiza la tienda (Google Play o App Store), que no nos entrega tus datos de pago. |
 | **Cloudinary** | Almacenamiento y CDN de imágenes (recetas, avatares) | Imágenes que subes y el ID de tu usuario asociado | EE. UU. | SCC GDPR; eliminación bajo demanda. |
 | **Google** | Validación de tokens Google Sign-In | `sub` claim de Google asociado a tu sesión | EE. UU. / UE | SCC GDPR. |
 | **Expo (Expo Application Services, Inc.)** | Servicio Expo Push (relay hacia APNs/FCM) | Token push del dispositivo (`ExponentPushToken[...]`), payload del mensaje | EE. UU. | SCC GDPR. Expo reenvía a Apple Push Notification service (APNs) y Firebase Cloud Messaging (FCM) según la plataforma. |
@@ -103,7 +108,7 @@ Compartimos datos personales únicamente con los siguientes proveedores ("encarg
 | Trazas de error (Sentry) | 90 días, después agregadas y anonimizadas |
 | Datos de cuenta tras eliminación voluntaria | Eliminación efectiva en máximo **30 días** desde la solicitud (ver §9) |
 | Backups cifrados | Hasta 30 días, después rotados |
-| Información necesaria para defender reclamaciones legales | Hasta 5 años después del cierre de la cuenta, conforme al Código de Comercio |
+| Información necesaria para defender reclamaciones legales o cumplir obligaciones contables y fiscales | Hasta 6 años (art. 30 del Código de Comercio) y 4 años en lo tributario (Ley 58/2003, General Tributaria) |
 
 ## 7. Seguridad
 
@@ -120,7 +125,7 @@ Implementamos medidas administrativas, técnicas y físicas razonables para prot
 
 Ninguna medida de seguridad es absoluta. Si detectas una vulnerabilidad, repórtala a airamlinaresdev@gmail.com.
 
-## 8. Tus derechos (Derechos ARCO + GDPR)
+## 8. Tus derechos (RGPD)
 
 Tienes derecho a:
 
@@ -128,15 +133,15 @@ Tienes derecho a:
 |---|---|
 | **Acceder** a tus datos personales | Desde la App: **Perfil → Editar perfil**, o solicitando una copia a airamlinaresdev@gmail.com |
 | **Rectificar** datos inexactos | **Perfil → Editar perfil** |
-| **Cancelar / suprimir** tus datos | **Perfil → Eliminar cuenta** (eliminación efectiva ≤ 30 días) o por correo |
+| **Suprimir** tus datos (art. 17) | **Perfil → Eliminar cuenta** (eliminación efectiva ≤ 30 días) o por correo |
 | **Oponerte** al tratamiento para finalidades secundarias | **Perfil → Ajustes** |
-| **Portabilidad** (GDPR art. 20): exportar tus recetas y datos en formato JSON | Solicitud por correo a airamlinaresdev@gmail.com; respuesta en 30 días |
+| **Portabilidad** (art. 20): exportar tus recetas y datos en formato JSON | Solicitud por correo a airamlinaresdev@gmail.com; respuesta en 30 días |
 | **Limitar** el tratamiento | Por correo |
 | **Retirar el consentimiento** previamente otorgado | Por correo o desde Ajustes |
 | **No ser objeto de decisiones automatizadas** con efectos jurídicos | Aplica por defecto: no realizamos profiling con efectos jurídicos |
-| **Presentar una queja** ante la autoridad | INAI en México (https://www.inai.org.mx); tu autoridad nacional de protección de datos en UE |
+| **Presentar una reclamación** ante la autoridad de control | Agencia Española de Protección de Datos, AEPD (https://www.aepd.es). Si resides en otro Estado miembro, ante la autoridad de tu país |
 
-**Plazos de respuesta:** 20 días hábiles a la solicitud (art. 32 LFPDPPP) / 30 días naturales prorrogables (GDPR art. 12.3).
+**Plazo de respuesta:** un mes desde la solicitud, prorrogable otros dos si la petición es compleja, avisándote del motivo (art. 12.3 RGPD).
 
 ## 9. Eliminación de cuenta
 
@@ -153,17 +158,17 @@ Al confirmar la eliminación:
 
 La eliminación es **definitiva** y se completa en menos de 30 días. Cierta información puede conservarse en backups cifrados hasta su rotación (máx. 30 días) o cuando exista una obligación legal de conservación.
 
-También puedes solicitar la eliminación escribiendo a airamlinaresdev@gmail.com desde el correo asociado a tu cuenta. Procedimiento público alternativo: https://recetiapp.com/legal/eliminar-cuenta/
+También puedes solicitar la eliminación escribiendo a airamlinaresdev@gmail.com desde el correo asociado a tu cuenta. Procedimiento público alternativo: https://recetiapp.com/account-deletion.html
 
 ## 10. Menores de edad
 
-RecetIA está dirigida a personas mayores de **13 años**. Si eres menor, necesitas el consentimiento verificable de quien ejerza la patria potestad o tutela. No recabamos conscientemente datos de menores de 13 años; si descubrimos que lo hemos hecho, eliminaremos esos datos de inmediato. Si crees que un menor de 13 años nos ha proporcionado datos, contáctanos en airamlinaresdev@gmail.com.
+RecetIA está dirigida a personas mayores de **14 años**: es la edad a partir de la cual el art. 7 de la LOPDGDD permite consentir el tratamiento de datos sin autorización de padres o tutores en España. Por debajo hace falta el consentimiento de quien ejerza la patria potestad o tutela. En países cuya edad de consentimiento digital sea inferior rige esa edad, con un mínimo de 13 años. No recabamos conscientemente datos de menores de esa edad; si descubrimos que lo hemos hecho, los eliminamos de inmediato. Escríbenos a airamlinaresdev@gmail.com si crees que ha ocurrido.
 
 ## 11. Transferencias internacionales
 
 Como se detalla en §5, algunos encargados están en EE. UU. Las transferencias se realizan al amparo de:
-- **Cláusulas Contractuales Tipo (SCC)** aprobadas por la Comisión Europea (Decisión 2021/914), cuando aplique GDPR.
-- **Excepción del art. 37 fracc. V LFPDPPP** (necesarias para el cumplimiento del contrato), bajo aviso.
+- **Cláusulas Contractuales Tipo (SCC)** aprobadas por la Comisión Europea (Decisión 2021/914), con las medidas complementarias que procedan.
+- La **decisión de adecuación del Marco de Privacidad de Datos UE-EE. UU.** (Decisión de 10 de julio de 2023), para los proveedores certificados en él.
 
 ## 12. Cookies y tecnologías similares
 
@@ -183,8 +188,8 @@ Si resides en California, tienes derechos adicionales bajo la CCPA/CPRA: derecho
 - Correo: airamlinaresdev@gmail.com
 - Domicilio: Jerez de la Frontera, España
 
-Para cualquier duda, queja o ejercicio de derechos relacionados con esta Política, escríbenos. Procuraremos responder en un máximo de **20 días hábiles**.
+Para cualquier duda, queja o ejercicio de derechos relacionados con esta Política, escríbenos. Procuraremos responder en un máximo de **un mes**.
 
 ---
 
-*Documento generado el 5 de mayo de 2026. Versión 1.0. Para versiones anteriores, contáctanos.*
+*Documento actualizado el 22 de septiembre de 2026. Versión 1.1: el marco pasa al RGPD y la LOPDGDD españolas, se incorporan OpenAI y RevenueCat como encargados y se corrige la edad mínima. Para versiones anteriores, contáctanos.*

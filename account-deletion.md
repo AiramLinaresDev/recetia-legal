@@ -61,14 +61,14 @@ Responderemos en un máximo de **20 días hábiles** confirmando la eliminación
 | Backups cifrados | Máx. 30 días | Rotación automática |
 | Logs de seguridad anonimizados (IPs hasheadas) | 90 días | Prevención de fraude (interés legítimo) |
 | Trazas de error en Sentry sin PII | 90 días | Mejora del servicio |
-| Información para defender reclamaciones legales | Hasta 5 años | Código de Comercio (México) |
-| Registros contables (si hubo pagos) | 5-10 años | Obligación fiscal |
+| Información para defender reclamaciones legales | Hasta 6 años | Art. 30 del Código de Comercio (España) |
+| Registros contables (si hubo pagos) | 4 años tributarios, 6 contables | Ley 58/2003, General Tributaria, y Código de Comercio |
 
 ## ¿Cuánto tarda?
 
 - **Desde la App:** la eliminación efectiva en producción ocurre **inmediatamente** (la cuenta deja de funcionar al instante).
 - **Eliminación de respaldos:** máximo **30 días**.
-- **Por correo:** máximo **20 días hábiles**.
+- **Por correo:** máximo **un mes**, prorrogable otros dos si la solicitud es compleja (art. 12.3 RGPD).
 
 ## ¿Es reversible?
 

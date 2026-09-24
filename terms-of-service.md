@@ -7,8 +7,8 @@ permalink: /legal/terminos/
 
 # Términos y Condiciones de Uso de RecetIA
 
-**Versión:** 1.0
-**Fecha de última actualización:** 5 de mayo de 2026
+**Versión:** 1.1
+**Fecha de última actualización:** 22 de septiembre de 2026
 
 Bienvenido a RecetIA. Lee estos Términos y Condiciones ("Términos") cuidadosamente antes de usar la App. Al crear una cuenta, descargar o usar RecetIA, aceptas quedar legalmente vinculado por estos Términos. Si no estás de acuerdo, no uses la App.
 
@@ -16,9 +16,9 @@ Bienvenido a RecetIA. Lee estos Términos y Condiciones ("Términos") cuidadosam
 
 - **"App" o "RecetIA":** la aplicación móvil para iOS y Android operada por Airam Linares Ossorio, sus servicios web asociados y APIs.
 - **"Nosotros", "Operador":** Airam Linares Ossorio, con domicilio en Jerez de la Frontera, España.
-- **"Usuario", "tú":** la persona física, mayor de 13 años, que crea una cuenta o usa la App.
+- **"Usuario", "tú":** la persona física, mayor de 14 años, que crea una cuenta o usa la App.
 - **"Contenido del Usuario":** cualquier receta, foto, reseña, lista, plan de comidas, prompt o texto que el Usuario suba o ingrese en la App.
-- **"Contenido Generado por IA":** cualquier salida producida por el modelo Llama 3.3 70b en respuesta a un prompt del Usuario.
+- **"Contenido Generado por IA":** cualquier salida producida por los modelos de inteligencia artificial que utiliza la App en respuesta a un prompt del Usuario.
 
 ## 2. Aceptación y modificaciones
 
@@ -87,17 +87,17 @@ Nos reservamos el derecho de **suspender o terminar tu cuenta** sin previo aviso
 
 ## 9. Propiedad intelectual
 
-9.1. La App (software, diseño, base de datos compilada, marca "RecetIA", logotipo, paleta de colores, copy editorial) es propiedad de Airam Linares Ossorio y está protegida por la Ley Federal del Derecho de Autor (México) y tratados internacionales aplicables.
+9.1. La App (software, diseño, base de datos compilada, marca "RecetIA", logotipo, paleta de colores, copy editorial) es propiedad de Airam Linares Ossorio y está protegida por el Real Decreto Legislativo 1/1996, texto refundido de la Ley de Propiedad Intelectual, y por los tratados internacionales aplicables.
 
 9.2. **DMCA / Notice and Takedown:** si crees que contenido en la App infringe tus derechos de autor, envía una notificación a recetia.app@gmail.com incluyendo: (a) identificación de la obra infringida, (b) ubicación del material en la App, (c) tus datos de contacto, (d) declaración de buena fe y (e) firma electrónica.
 
 ## 10. Privacidad
 
-El tratamiento de tus datos personales se rige por nuestra **Política de Privacidad**: https://recetiapp.com/legal/privacidad/. Léela antes de aceptar estos Términos.
+El tratamiento de tus datos personales se rige por nuestra **Política de Privacidad**: https://recetiapp.com/privacy-policy.html. Léela antes de aceptar estos Términos.
 
 ## 11. Disponibilidad del servicio
 
-11.1. Nos esforzamos por mantener la App disponible 24/7, pero **no garantizamos** disponibilidad ininterrumpida. Pueden ocurrir interrupciones por mantenimiento, fallos de proveedores (Groq, Cloudinary, hosting), causas de fuerza mayor o necesidades de seguridad.
+11.1. Nos esforzamos por mantener la App disponible 24/7, pero **no garantizamos** disponibilidad ininterrumpida. Pueden ocurrir interrupciones por mantenimiento, fallos de proveedores (los servicios de IA, el almacenamiento de imágenes o el hosting), causas de fuerza mayor o necesidades de seguridad.
 
 11.2. Nos reservamos el derecho de modificar, suspender o discontinuar la App o cualquiera de sus funcionalidades, total o parcialmente, con o sin previo aviso. Si discontinuamos la App, te avisaremos con al menos 30 días de antelación y proporcionaremos una vía para exportar tu Contenido.
 
@@ -111,7 +111,7 @@ EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY, Airam Linares Ossorio, SUS DIRECTORES
 
 NUESTRA RESPONSABILIDAD TOTAL ACUMULADA POR CUALQUIER RECLAMACIÓN RELACIONADA CON LA APP NO EXCEDERÁ LA MAYOR DE: (A) USD $50; O (B) EL TOTAL QUE NOS HAYAS PAGADO POR LA APP EN LOS 12 MESES ANTERIORES AL EVENTO QUE DIO ORIGEN A LA RESPONSABILIDAD.
 
-Esta limitación no aplica a daños causados por dolo, fraude o negligencia grave nuestra, ni a derechos del consumidor irrenunciables conforme a la legislación aplicable (LFPC mexicana, Directiva 2011/83/UE, etc.).
+Esta limitación no aplica a daños causados por dolo, fraude o negligencia grave nuestra, ni a derechos del consumidor irrenunciables conforme a la legislación aplicable (TRLGDCU español, Directiva 2011/83/UE, etc.).
 
 ## 14. Indemnización
 
@@ -135,11 +135,11 @@ Si descargaste la App desde la App Store de Apple o Google Play, reconoces que:
 
 ## 17. Ley aplicable y jurisdicción
 
-17.1. Estos Términos se rigen por las leyes de los Estados Unidos Mexicanos.
+17.1. Estos Términos se rigen por la legislación española, en particular por el Real Decreto Legislativo 1/2007, texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios, y por la Ley 34/2002, de servicios de la sociedad de la información y de comercio electrónico, en lo que resulten aplicables.
 
 17.2. Para cualquier controversia, las partes se someten a la jurisdicción de los tribunales competentes de **Jerez de la Frontera, España**, renunciando a cualquier otro fuero que pudiera corresponderles. Lo anterior sin perjuicio de los derechos de los consumidores residentes en otras jurisdicciones (incluyendo UE/EEE), donde podrán litigar ante los tribunales de su domicilio.
 
-17.3. **Profeco:** los consumidores en México pueden recurrir a la Procuraduría Federal del Consumidor (https://www.profeco.gob.mx) para mediación.
+17.3. **Consumo:** antes de reclamar por otra vía, escríbenos e intentaremos resolverlo directamente. Si no llegamos a un acuerdo, puedes presentar una reclamación ante los servicios de consumo de tu comunidad autónoma o ante la Junta Arbitral de Consumo que te corresponda. Los reembolsos de las compras hechas en una tienda de aplicaciones los tramita esa tienda, conforme a sus propias políticas.
 
 ## 18. Disposiciones generales
 
@@ -159,4 +159,4 @@ Para cualquier duda sobre estos Términos:
 
 ---
 
-*Al usar RecetIA aceptas estos Términos. Versión 1.0 — 5 de mayo de 2026.*
+*Al usar RecetIA aceptas estos Términos. Versión 1.1 — 22 de septiembre de 2026.*
