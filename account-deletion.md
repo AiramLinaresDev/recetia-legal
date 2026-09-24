@@ -35,7 +35,7 @@ Desde el correo asociado a tu cuenta, indicando:
 - Asunto: "Solicitud de eliminación de cuenta — RecetIA"
 - Cuerpo: "Solicito la eliminación definitiva de mi cuenta y todos los datos asociados."
 
-Responderemos en un máximo de **20 días hábiles** confirmando la eliminación o solicitando información adicional para verificar tu identidad.
+Responderemos en un máximo de **un mes** (prorrogable otros dos si la solicitud es compleja, art. 12.3 RGPD) confirmando la eliminación o solicitando información adicional para verificar tu identidad.
 
 ## ¿Qué datos se eliminan?
 
