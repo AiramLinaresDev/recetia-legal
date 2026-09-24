@@ -1,195 +1,105 @@
 ---
 layout: default
 title: Política de Privacidad — RecetIA
-description: Política de Privacidad de RecetIA — tratamiento de datos personales conforme al RGPD.
+description: Qué datos trata RecetIA, para qué los usa y cómo ejercer tus derechos.
 permalink: /legal/privacidad/
 ---
 
 # Política de Privacidad de RecetIA
 
-**Versión:** 1.1
-**Fecha de última actualización:** 22 de septiembre de 2026
-**Responsable del tratamiento:** Airam Linares Ossorio (Persona física — España (identificación disponible bajo solicitud verificada al email de privacidad)), con domicilio en Jerez de la Frontera, España.
-**Contacto de privacidad:** airamlinaresdev@gmail.com
+**Versión:** 1.2
 
----
+**Última actualización:** 24 de septiembre de 2026
 
-## 1. Quiénes somos
+RecetIA es una aplicación de recetas, planificación de comidas y funciones de inteligencia artificial. Esta política explica el tratamiento de tus datos cuando creas una cuenta, usas la aplicación o visitas sus páginas legales.
 
-RecetIA (en adelante, "la App", "nosotros") es una aplicación móvil que permite a sus usuarios buscar, crear, guardar y compartir recetas de cocina, generar nuevas recetas mediante inteligencia artificial, planificar comidas semanales y administrar listas de compras. La App es operada por **Airam Linares Ossorio**.
+**En pocas palabras:** usamos los datos de tu cuenta y el contenido que eliges guardar para prestar el servicio. Si utilizas la IA, el texto necesario para responder se envía al proveedor configurado. Puedes pedir acceso, rectificación o supresión de tus datos y eliminar tu cuenta desde la aplicación o por correo. Algunas recetas públicas pueden seguir visibles sin atribución tras eliminar la cuenta; encontrarás los detalles más abajo.
 
-Esta Política de Privacidad describe **qué datos personales recabamos, para qué los usamos, con quién los compartimos, durante cuánto tiempo los conservamos y qué derechos puedes ejercer sobre ellos**, en cumplimiento de:
+## 1. Responsable y contacto
 
-- el **Reglamento (UE) 2016/679, General de Protección de Datos (RGPD)**;
-- la **Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD)**, de España;
-- los **App Store Review Guidelines §5.1.1** de Apple;
-- la **Developer Program Policy** y el **Data Safety form** de Google Play;
-- la **Children's Online Privacy Protection Act (COPPA)** de EE. UU., cuando aplique.
+El responsable del tratamiento es **Airam Linares Ossorio**, persona física establecida en **Jerez de la Frontera, España**. Para cualquier consulta de privacidad o para ejercer tus derechos, escribe a **[airamlinaresdev@gmail.com](mailto:airamlinaresdev@gmail.com)**.
 
-RecetIA se desarrolla y opera desde **España**, así que el RGPD y la LOPDGDD son el marco principal. Si resides fuera del Espacio Económico Europeo, tu normativa local puede reconocerte derechos adicionales: escríbenos y los atenderemos igual.
+## 2. Datos que tratamos
 
-## 2. Datos personales que tratamos
-
-| Categoría | Datos específicos | Origen | Obligatorio |
-|---|---|---|---|
-| **Identificación** | Nombre, apellido, correo electrónico | Tú al registrarte | Sí |
-| **Autenticación** | Hash de contraseña (PBKDF2 con HMAC-SHA256 mediante el `PasswordHasher<TUser>` por defecto de ASP.NET Core Identity), tokens de sesión (JWT + refresh tokens) | Generados al registrarte / iniciar sesión | Sí |
-| **Cuentas vinculadas** | Identificador único de Google o Apple (sub claim), correo verificado | Proveedor OAuth elegido | Solo si usas inicio de sesión social |
-| **Perfil** | Foto de perfil (avatar), biografía, preferencias dietéticas (vegetariano, vegano, sin gluten, alergias, nivel de habilidad, cocinas favoritas) | Tú al editar tu perfil o completar el onboarding | No |
-| **Contenido del usuario** | Recetas que creas, recetas que marcas como favoritas, reseñas, listas de compras, planes de comidas, historial de recetas vistas | Tu uso de la App | No |
-| **Interacción con IA** | Texto de los prompts que envías al asistente IA y a los generadores de recetas, ingredientes que listas | Tu uso de la App | No |
-| **Imágenes** | Fotos que subes para tus recetas y avatar | Tu cámara o galería | Solo si las subes |
-| **Notificaciones push** | Token de dispositivo (Expo Push Token) | Otorgado por Apple/Google al aceptar permisos | Solo si activas notificaciones |
-| **Diagnóstico técnico** | Errores y trazas de stack (vía Sentry), versión de la App, modelo de dispositivo aproximado, sistema operativo | Recabado automáticamente cuando hay un error | Sí (no se usa con fines comerciales) |
-| **Rendimiento** | Tiempos de respuesta del API, métricas agregadas anónimas | Sentry tracing | Sí |
-
-**No recabamos:**
-- Categorías especiales de datos del art. 9 RGPD (origen étnico, salud, datos genéticos o biométricos, convicciones religiosas, etc.) excepto por las preferencias dietéticas y alergias que tú decides ingresar voluntariamente para personalizar recomendaciones.
-- Ubicación GPS precisa.
-- Identificadores publicitarios (IDFA / GAID). RecetIA **no muestra publicidad** ni hace tracking cross-app.
-- Información de contactos, calendario, fotos completas de la galería (solo accedemos a las fotos que tú seleccionas explícitamente).
-- Datos biométricos.
-
-## 3. Finalidades del tratamiento
-
-### Finalidades primarias (necesarias para prestar el servicio)
-1. Crear y administrar tu cuenta.
-2. Autenticarte y mantener tu sesión segura.
-3. Mostrarte tus recetas, favoritos, historial, planes de comidas y listas de compras.
-4. Generar recetas, respuestas conversacionales e imágenes mediante modelos de inteligencia artificial operados por Groq Inc. y OpenAI, y revisar con un clasificador automático el contenido que se publica.
-5. Personalizar las recomendaciones de recetas según tus preferencias dietéticas y alergias.
-6. Enviar notificaciones push relacionadas con tu planificador de comidas (solo si activas el permiso).
-7. Mantener la seguridad de la App: detectar y prevenir fraude, abuso, ataques de fuerza bruta, abuso de IA.
-8. Cumplir obligaciones legales y atender requerimientos de autoridades competentes.
-
-### Finalidades secundarias (no necesarias, requieren consentimiento)
-9. Mejorar la calidad del modelo de IA mediante análisis agregado y anonimizado de prompts (esto es **opt-in**, deshabilitado por defecto, gestionable desde Ajustes).
-10. Enviar correos electrónicos esporádicos sobre nuevas funcionalidades (solo si lo activas).
-
-Si no deseas que tus datos se traten para las finalidades secundarias, puedes manifestarlo desde la pantalla **Perfil → Ajustes → Preferencias** o escribiéndonos a airamlinaresdev@gmail.com. Negarte a las finalidades secundarias no afectará el uso de la App.
-
-## 4. Base legal del tratamiento (RGPD)
-
-| Finalidad | Base legal RGPD |
+| Datos | Cuándo se obtienen y para qué sirven |
 |---|---|
-| Crear y operar tu cuenta (1-6) | Ejecución de un contrato (art. 6.1.b) |
-| Moderar el contenido que se publica (4) | Interés legítimo (art. 6.1.f): mantener la App libre de contenido ilegal o peligroso |
-| Seguridad y prevención de fraude (7) | Interés legítimo (art. 6.1.f) |
-| Cumplimiento de obligaciones legales (8) | Obligación legal (art. 6.1.c) |
-| Mejora del modelo de IA y marketing (9-10) | Consentimiento explícito opt-in (art. 6.1.a), revocable en cualquier momento |
+| **Cuenta y acceso** | Nombre, apellidos, correo electrónico, contraseña protegida mediante hash, identificadores de sesión y, si accedes con Google o Apple, identificador y datos de perfil que ese proveedor comunica. Permiten crear la cuenta y mantenerla segura. |
+| **Perfil y preferencias** | Avatar, biografía, tipos de cocina, ingredientes preferidos o excluidos, restricciones alimentarias y alergias que decides indicar. Adaptan las recomendaciones y la planificación. Las alergias pueden revelar información de salud. |
+| **Contenido y actividad** | Recetas e imágenes que subes, reseñas, favoritos, colecciones, historial de visualización, planes de comidas y listas de compras. Permiten mostrar y sincronizar lo que haces en la aplicación. Si publicas una receta, otros usuarios podrán verla. |
+| **Funciones de IA** | Ingredientes, instrucciones y mensajes que envías al generador o al asistente, así como los resultados que decides guardar. Se usan para generar respuestas y revisar automáticamente el contenido que se publica. |
+| **Notificaciones y datos técnicos** | Token push si aceptas notificaciones; información de errores, rendimiento, versión de la aplicación y del dispositivo cuando está habilitado el diagnóstico. También pueden tratarse datos técnicos de conexión para seguridad y prevención de abusos. |
+| **Suscripción** | Identificador de cliente, estado y eventos de compra necesarios para reconocer Premium. El pago lo gestiona Apple o Google; RecetIA no recibe el número de tu tarjeta. |
 
-## 5. Encargados y terceros con quienes se comparten datos
+No utilizamos identificadores publicitarios ni publicidad personalizada en la aplicación. No solicitamos ubicación GPS precisa, contactos o acceso a toda tu fototeca: las fotos se usan cuando seleccionas o tomas una imagen para subirla.
 
-Compartimos datos personales únicamente con los siguientes encargados del tratamiento (art. 28 RGPD), bajo contrato de tratamiento de datos:
+## 3. Para qué usamos los datos y con qué base
 
-| Proveedor | Servicio | Datos transferidos | País | Marco de transferencia |
-|---|---|---|---|---|
-| **Groq Inc.** | Clasificación automática del contenido que publicas y, según la configuración vigente, generación de recetas y chat | Texto de las recetas que guardas, prompts y mensajes que envías al asistente, y la URL de la imagen que acompaña a la receta | EE. UU. | Cláusulas Contractuales Tipo (SCC); Groq no entrena sus modelos con datos de la API. |
-| **OpenAI** | Generación de recetas y de chat cuando es el proveedor configurado, y creación de las imágenes de receta | Prompts, mensajes e ingredientes que envías, y la descripción con la que se genera la imagen | EE. UU. / UE | SCC; OpenAI no entrena sus modelos con datos enviados por la API. |
-| **RevenueCat, Inc.** | Gestión de suscripciones y validación de compras | Identificador de cliente asociado a tu cuenta, estado e historial de la suscripción | EE. UU. | SCC. El cobro lo realiza la tienda (Google Play o App Store), que no nos entrega tus datos de pago. |
-| **Cloudinary** | Almacenamiento y CDN de imágenes (recetas, avatares) | Imágenes que subes y el ID de tu usuario asociado | EE. UU. | SCC GDPR; eliminación bajo demanda. |
-| **Google** | Validación de tokens Google Sign-In | `sub` claim de Google asociado a tu sesión | EE. UU. / UE | SCC GDPR. |
-| **Expo (Expo Application Services, Inc.)** | Servicio Expo Push (relay hacia APNs/FCM) | Token push del dispositivo (`ExponentPushToken[...]`), payload del mensaje | EE. UU. | SCC GDPR. Expo reenvía a Apple Push Notification service (APNs) y Firebase Cloud Messaging (FCM) según la plataforma. |
-| **Apple Inc.** | Notificaciones push (APNs) y validación Sign in with Apple | Token push, identificador Apple anónimo | EE. UU. | Acuerdo Apple Developer. |
-| **Sentry (Functional Software, Inc.)** | Monitoreo de errores y rendimiento | Trazas de error, versión de App, modelo de dispositivo (sin PII por configuración `sendDefaultPii: false` tanto en backend como en cliente; no se envían IPs, cookies ni headers sensibles) | EE. UU. | SCC GDPR. |
-| **Proveedor SMTP** (airamlinaresdev@gmail.com) | Envío de correos transaccionales (recuperación de contraseña) | Correo electrónico, nombre, token de recuperación | UE/EE. UU. | SCC GDPR. |
-| **Hosting del API** (Railway / proveedor PaaS) | Operación del backend ASP.NET Core 9 + base de datos MySQL | Todos los datos de tu cuenta y contenido | UE/EE. UU. | SCC GDPR. |
-
-**No vendemos tus datos personales a ningún tercero, ni para ningún propósito.** No realizamos elaboración de perfiles automatizados que produzcan efectos jurídicos sobre ti.
-
-## 6. Conservación de datos
-
-| Dato | Plazo de conservación |
+| Finalidad | Base jurídica principal |
 |---|---|
-| Cuenta activa (perfil, contenido, recetas, favoritos) | Mientras tu cuenta exista |
-| Refresh tokens activos | 7 días desde su emisión |
-| Refresh tokens revocados/expirados | 30 días, después se eliminan automáticamente por `TokenCleanupService` |
-| Logs de seguridad (intentos de login, IP) | 90 días |
-| Trazas de error (Sentry) | 90 días, después agregadas y anonimizadas |
-| Datos de cuenta tras eliminación voluntaria | Eliminación efectiva en máximo **30 días** desde la solicitud (ver §9) |
-| Backups cifrados | Hasta 30 días, después rotados |
-| Información necesaria para defender reclamaciones legales o cumplir obligaciones contables y fiscales | Hasta 6 años (art. 30 del Código de Comercio) y 4 años en lo tributario (Ley 58/2003, General Tributaria) |
+| Crear la cuenta, autenticarte, mostrar tu contenido, prestar las funciones solicitadas y gestionar Premium | Ejecución de la relación de servicio (art. 6.1.b RGPD). |
+| Personalizar recetas con las preferencias que introduces | Ejecución del servicio solicitado (art. 6.1.b RGPD). **Si una alergia revela datos de salud, se necesita además una condición del art. 9 RGPD, en particular consentimiento explícito cuando sea la aplicable.** |
+| Enviar recordatorios al dispositivo | Tu elección de activar las notificaciones y el permiso del sistema; puedes desactivarlas en cualquier momento. |
+| Proteger cuentas y sistemas, limitar abusos y moderar contenido público | Interés legítimo en la seguridad del servicio y de sus usuarios (art. 6.1.f RGPD), sujeto a tus derechos. |
+| Atender solicitudes legales o conservar información exigida por ley | Obligación legal aplicable (art. 6.1.c RGPD). |
 
-## 7. Seguridad
+Actualmente no ofrecemos una opción de cesión de tus mensajes para entrenar un modelo propio ni una lista de correo promocional en Ajustes. No utilizamos tus contenidos para esas finalidades. La información que proporciones en campos libres podría contener datos personales o sensibles; evita incluir los de otras personas o información médica que no sea necesaria para pedir una receta.
 
-Implementamos medidas administrativas, técnicas y físicas razonables para proteger tus datos:
+## 4. Inteligencia artificial
 
-- **En tránsito:** todas las comunicaciones App ↔ API usan HTTPS/TLS 1.2+.
-- **En reposo:** contraseñas almacenadas con hash PBKDF2 (HMAC-SHA256) mediante el `PasswordHasher<TUser>` por defecto de ASP.NET Core Identity (nunca en texto plano).
-- **Tokens:** el JWT de acceso vive 60 minutos; los refresh tokens son aleatorios criptográficamente seguros (`RandomNumberGenerator` de 64 bytes, base64) con rotación automática y revocación al cambiar contraseña, cerrar sesión global o eliminar la cuenta.
-- **Rate limiting** en login, registro, recuperación de contraseña y endpoints de IA para prevenir fuerza bruta y abuso.
-- **Sanitización de prompts** para prevenir inyección al modelo de IA.
-- **Headers de seguridad HTTP:** `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy`, HSTS en producción.
-- **Tokens de sesión almacenados en `expo-secure-store`** (Keychain en iOS, EncryptedSharedPreferences en Android).
-- **Auditoría continua** de dependencias (Dependabot, npm audit, dotnet list package --vulnerable).
+La generación de recetas, imágenes y respuestas utiliza **Groq u OpenAI**, según la función y la configuración del servicio. La moderación del contenido público también puede enviar texto y la URL de una imagen a Groq. Compartimos con esos proveedores la información necesaria para procesar la petición, no el conjunto de tu cuenta. Los resultados pueden contener errores, especialmente sobre ingredientes, alérgenos y nutrición; revísalos antes de usarlos.
 
-Ninguna medida de seguridad es absoluta. Si detectas una vulnerabilidad, repórtala a airamlinaresdev@gmail.com.
+Las recetas que decides guardar se conservan en tu cuenta. Las conversaciones del asistente pueden conservarse también en el dispositivo hasta que borres la cuenta o elimines los datos de la aplicación. Los proveedores de IA pueden aplicar sus propios plazos técnicos de conservación al procesar solicitudes; puedes pedirnos información sobre las condiciones vigentes.
 
-## 8. Tus derechos (RGPD)
+## 5. Destinatarios y servicios externos
 
-Tienes derecho a:
+Estos servicios participan en el funcionamiento de RecetIA. El acceso a datos depende de la función que utilices:
 
-| Derecho | Cómo ejercerlo |
+| Servicio | Uso y datos que puede recibir |
 |---|---|
-| **Acceder** a tus datos personales | Desde la App: **Perfil → Editar perfil**, o solicitando una copia a airamlinaresdev@gmail.com |
-| **Rectificar** datos inexactos | **Perfil → Editar perfil** |
-| **Suprimir** tus datos (art. 17) | **Perfil → Eliminar cuenta** (eliminación efectiva ≤ 30 días) o por correo |
-| **Oponerte** al tratamiento para finalidades secundarias | **Perfil → Ajustes** |
-| **Portabilidad** (art. 20): exportar tus recetas y datos en formato JSON | Solicitud por correo a airamlinaresdev@gmail.com; respuesta en 30 días |
-| **Limitar** el tratamiento | Por correo |
-| **Retirar el consentimiento** previamente otorgado | Por correo o desde Ajustes |
-| **No ser objeto de decisiones automatizadas** con efectos jurídicos | Aplica por defecto: no realizamos profiling con efectos jurídicos |
-| **Presentar una reclamación** ante la autoridad de control | Agencia Española de Protección de Datos, AEPD (https://www.aepd.es). Si resides en otro Estado miembro, ante la autoridad de tu país |
+| **Railway y alojamiento de base de datos** | Hospedan la API y los datos que guardas en tu cuenta. |
+| **Groq y OpenAI** | Procesan solicitudes de IA, generación de imágenes y moderación cuando corresponde. |
+| **Cloudinary** | Aloja avatares e imágenes de recetas que se suben o generan. |
+| **RevenueCat; Apple App Store y Google Play** | Gestionan el estado de la suscripción, la compra y la facturación en la tienda. |
+| **Google y Apple** | Intervienen si eliges su inicio de sesión; Apple, Google y Expo también pueden intervenir en la entrega de notificaciones push. |
+| **Sentry** | Recibe diagnósticos de errores y rendimiento si el servicio está configurado. La aplicación no envía por defecto datos personales adicionales mediante la opción `sendDefaultPii`. |
+| **Servicio de correo** | Entrega mensajes necesarios para la cuenta, como la recuperación de contraseña. |
 
-**Plazo de respuesta:** un mes desde la solicitud, prorrogable otros dos si la petición es compleja, avisándote del motivo (art. 12.3 RGPD).
+No vendemos tus datos ni los cedemos para publicidad entre aplicaciones. Una receta que publicas sí queda accesible a otros usuarios, y ellos pueden guardar una copia o marcarla como favorita.
 
-## 9. Eliminación de cuenta
+Algunos proveedores pueden procesar datos fuera del Espacio Económico Europeo. Las transferencias deben contar con un mecanismo válido, como una decisión de adecuación o garantías contractuales cuando correspondan. Puedes solicitar información sobre el proveedor, la ubicación y las garantías aplicables a tu caso mediante el correo de privacidad.
 
-Puedes eliminar tu cuenta y todos los datos asociados directamente desde la App:
+## 6. Conservación y eliminación
 
-**Perfil → Eliminar cuenta**
+| Datos | Criterio de conservación |
+|---|---|
+| Cuenta, perfil, preferencias y contenido privado | Mientras mantengas la cuenta o hasta que elimines cada contenido, salvo una obligación legal concreta. |
+| Sesiones y tokens | Hasta su caducidad o revocación; los registros técnicos se limpian periódicamente según la configuración del servicio. Al eliminar la cuenta se eliminan los tokens asociados de la base de datos activa. |
+| Recetas públicas | Pueden seguir publicadas sin vinculación con tu cuenta tras eliminarla. Si conservan datos que te identifican o quieres pedir su retirada, escríbenos con el enlace. |
+| Imágenes alojadas, diagnósticos y registros técnicos | Según la finalidad y los plazos del proveedor correspondiente. Podemos tramitar una solicitud de retirada de imágenes; el avatar se incorpora a una cola de borrado al eliminar la cuenta. |
+| Copias de seguridad y documentos exigidos por ley | Hasta su rotación técnica o durante el plazo de conservación legal que corresponda. No se usan para reactivar cuentas eliminadas. |
 
-Al confirmar la eliminación:
-1. Se revocan todos tus refresh tokens (cierra todas tus sesiones).
-2. Se elimina tu avatar de Cloudinary.
-3. Tus recetas creadas se **anonimizan** (se desvincula tu usuario, `UserId = null`, conservando el contenido sin datos identificativos).
-4. Tus favoritos, historial, listas de compras, planes de comidas, reseñas y preferencias se eliminan permanentemente.
-5. Tu registro de usuario se borra de la base de datos.
+Al eliminar la cuenta se borran los datos asociados de la base de datos activa, salvo las recetas públicas que permanecen desvinculadas. La eliminación de una cuenta **no cancela una suscripción** de la tienda. Consulta [cómo eliminar tu cuenta](https://recetiapp.com/legal/eliminar-cuenta/) para conocer los pasos y las excepciones.
 
-La eliminación es **definitiva** y se completa en menos de 30 días. Cierta información puede conservarse en backups cifrados hasta su rotación (máx. 30 días) o cuando exista una obligación legal de conservación.
+## 7. Tus derechos
 
-También puedes solicitar la eliminación escribiendo a airamlinaresdev@gmail.com desde el correo asociado a tu cuenta. Procedimiento público alternativo: https://recetiapp.com/account-deletion.html
+Puedes solicitar **acceso, rectificación, supresión, oposición, limitación y portabilidad** cuando corresponda. Si un tratamiento se basa en tu consentimiento, puedes retirarlo sin afectar a lo realizado antes de la retirada. También puedes reclamar ante la [Agencia Española de Protección de Datos](https://www.aepd.es/) o la autoridad competente de tu país.
 
-## 10. Menores de edad
+Para ejercer estos derechos, escribe a **[airamlinaresdev@gmail.com](mailto:airamlinaresdev@gmail.com)**. Podremos pedirte la información mínima necesaria para verificar que la cuenta es tuya. Responderemos en **un mes**; si la solicitud es compleja, podremos ampliar el plazo hasta dos meses más y te informaremos dentro del primer mes, de acuerdo con el art. 12.3 RGPD.
 
-RecetIA está dirigida a personas mayores de **14 años**: es la edad a partir de la cual el art. 7 de la LOPDGDD permite consentir el tratamiento de datos sin autorización de padres o tutores en España. Por debajo hace falta el consentimiento de quien ejerza la patria potestad o tutela. En países cuya edad de consentimiento digital sea inferior rige esa edad, con un mínimo de 13 años. No recabamos conscientemente datos de menores de esa edad; si descubrimos que lo hemos hecho, los eliminamos de inmediato. Escríbenos a airamlinaresdev@gmail.com si crees que ha ocurrido.
+Puedes corregir parte de tu perfil en la aplicación. Para eliminar la cuenta, usa **Perfil → Eliminar cuenta** o el procedimiento por correo de la [página de eliminación](https://recetiapp.com/legal/eliminar-cuenta/). Para pedir una copia estructurada de tus datos, escríbenos; no existe actualmente una descarga automática desde Ajustes.
 
-## 11. Transferencias internacionales
+## 8. Menores, seguridad y decisiones automatizadas
 
-Como se detalla en §5, algunos encargados están en EE. UU. Las transferencias se realizan al amparo de:
-- **Cláusulas Contractuales Tipo (SCC)** aprobadas por la Comisión Europea (Decisión 2021/914), con las medidas complementarias que procedan.
-- La **decisión de adecuación del Marco de Privacidad de Datos UE-EE. UU.** (Decisión de 10 de julio de 2023), para los proveedores certificados en él.
+RecetIA está dirigida a personas de **14 años o más**. Si eres menor de edad, usa la aplicación con la autorización de tus representantes cuando sea necesaria. Si crees que una persona menor de 14 años ha creado una cuenta, avísanos para revisarla y eliminar sus datos cuando proceda.
 
-## 12. Cookies y tecnologías similares
+Protegemos las comunicaciones mediante HTTPS, las contraseñas mediante hash y las sesiones mediante controles de acceso. Aplicamos medidas contra el abuso y limitamos quién puede acceder a los datos. Ningún sistema ofrece seguridad absoluta; puedes comunicar un incidente a nuestro correo de privacidad.
 
-La App **no usa cookies**. En el sitio web `https://recetiapp.com` usamos exclusivamente cookies estrictamente necesarias para mantener tu sesión.
+Las recomendaciones y la moderación utilizan sistemas automáticos, pero no adoptamos decisiones automatizadas que produzcan por sí solas efectos jurídicos o equivalentes sobre ti en el sentido del art. 22 RGPD. Si una decisión de moderación afecta a tu contenido, puedes pedir su revisión por correo.
 
-## 13. Cambios a esta Política
+## 9. Sitio web y cambios de esta política
 
-Podemos actualizar esta Política. Los cambios materiales (que afecten cómo tratamos tus datos) se notificarán in-app antes de entrar en vigor, dándote oportunidad de revisarlos y, si así lo decides, cancelar tu cuenta antes de la nueva vigencia. La fecha de última actualización siempre aparece al inicio del documento.
+Las páginas legales de `recetiapp.com` son estáticas: no incorporan una cuenta web, analítica propia ni publicidad. El proveedor de alojamiento puede tratar registros técnicos necesarios para servirlas y proteger la infraestructura.
 
-## 14. Aviso a residentes de California (CCPA/CPRA)
+Actualizaremos esta política cuando cambien las funciones o el tratamiento de datos. Indicaremos la fecha de revisión y comunicaremos los cambios relevantes por un medio apropiado antes de aplicarlos cuando sea necesario. La versión anterior puede solicitarse por correo.
 
-Si resides en California, tienes derechos adicionales bajo la CCPA/CPRA: derecho a saber qué información personal recabamos, derecho a eliminar, derecho a corregir, derecho a optar por no vender/compartir (no aplica: no vendemos ni compartimos para publicidad cross-context), y derecho a no ser discriminado por ejercer tus derechos. Solicitudes a airamlinaresdev@gmail.com.
-
-## 15. Contacto
-
-**Encargado de Protección de Datos / Privacy Officer:**
-- Correo: airamlinaresdev@gmail.com
-- Domicilio: Jerez de la Frontera, España
-
-Para cualquier duda, queja o ejercicio de derechos relacionados con esta Política, escríbenos. Procuraremos responder en un máximo de **un mes**.
-
----
-
-*Documento actualizado el 22 de septiembre de 2026. Versión 1.1: el marco pasa al RGPD y la LOPDGDD españolas, se incorporan OpenAI y RevenueCat como encargados y se corrige la edad mínima. Para versiones anteriores, contáctanos.*
+**Contacto de privacidad:** [airamlinaresdev@gmail.com](mailto:airamlinaresdev@gmail.com).
