@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.recetia.app",
+      "sha256_cert_fingerprints": [
+        "97:C7:E6:30:C5:24:96:C5:98:39:74:B9:99:67:C8:F2:B9:E4:D6:80:2A:1C:3A:9D:44:3F:90:6F:95:BC:03:EA",
+        "70:72:2C:D8:47:73:EA:3E:66:D9:C5:3A:9A:9F:65:18:6C:9B:53:5E:7E:C9:C2:B6:B8:B1:FD:92:90:DF:47:81"
+      ]
+    }
+  }
+]

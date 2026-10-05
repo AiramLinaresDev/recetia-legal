@@ -26,6 +26,11 @@ defaults:
     values:
       layout: default
 
+# Jekyll no publica carpetas que empiezan por punto. Sin esto, assetlinks.json (App Links de
+# Android) daría 404 y los enlaces compartidos abrirían el navegador en vez de la app.
+include:
+  - .well-known
+
 exclude:
   - _design/
   - README.md

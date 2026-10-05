@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RecetIA</title>
+  <script>
+    (function () {
+      // Placeholders: apuntan a la landing hasta que existan los listings de tienda
+      // (ver docs/superpowers/specs/2026-07-17-deep-links-design.md).
+      var STORE_URL_IOS = 'https://recetiapp.com/';
+      var STORE_URL_ANDROID = 'https://recetiapp.com/';
+      var LANDING = 'https://recetiapp.com/';
+      var APP_PATHS = ['/recipe', '/collections', '/shopping'];
+
+      var path = window.location.pathname || '/';
+      var isAppContent = APP_PATHS.some(function (p) { return path.indexOf(p) === 0; });
+
+      if (!isAppContent) {
+        window.location.replace(LANDING);
+        return;
+      }
+
+      var ua = navigator.userAgent || '';
+      var dest;
+      if (/iPhone|iPad|iPod/i.test(ua)) dest = STORE_URL_IOS;
+      else if (/Android/i.test(ua)) dest = STORE_URL_ANDROID;
+      else dest = LANDING;
+
+      window.location.replace(dest);
+    })();
+  </script>
+</head>
+<body>
+  <p>Abriendo RecetIA… Si no ocurre nada, <a href="https://recetiapp.com/">ve a recetiapp.com</a>.</p>
+</body>
+</html>
